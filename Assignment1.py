@@ -1,17 +1,15 @@
 # Program Name: Assignment1.py
-# Course: IT3883/Section V
-# Student Name: John Doe
+# Course: IT3883/Section W01 (52337)
+# Student Name: Jonathan Cruz
 # Assignment Number: Lab1
 # Due Date: 06/12/2026
-# Purpose: This program shows a simple text menu that lets the user add text
-#          to a "buffer" (basically just a string variable), clear it out,
-#          look at what's currently stored, or quit the program. It keeps
-#          looping and asking for input until the user picks the exit option.
+# Purpose: 
+# This program creates a menu that lets the user store and manage text.
+# The user can add new text, view what has already been entered, clear
+# the stored text, or exit the program when finished.
 # Resources Used: Python docs (docs.python.org) to double check how string
 #                 concatenation with += works.
 
-# this string is going to hold whatever the user has typed in so far
-# starts off empty since nothing has been entered yet
 my_buffer = ""
 
 # using this as a simple on/off switch for the while loop below
